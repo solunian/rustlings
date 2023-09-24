@@ -5,8 +5,11 @@
 // Execute `rustlings hint intro2` or use the `hint` watch subcommand for a
 // hint.
 
-// I AM NOT DONE
+
 
 fn main() {
-    println!("Hello {}!");
+    // named format options???
+    println!("Hello {world}!", world="world");
+    println!("My name is {}", "Daniel");
+    println!("What is {0}, {1}? The sky is {0}.", "up", "man")
 }
